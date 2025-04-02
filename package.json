@@ -1,6 +1,6 @@
 {
   "name": "portfolio-shifat",
-  "homepage": "https://shifatxplore.github.io/shifat-portfolio",
+  "homepage": "https://shifatunnabi.github.io/shifat-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.17",

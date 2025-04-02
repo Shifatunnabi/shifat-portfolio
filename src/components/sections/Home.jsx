@@ -32,6 +32,8 @@
 //====================================================
 
 import { RevealOnScroll } from "../RevealOnScroll";
+import profilePhoto from "C:/Users/HP/OneDrive/Desktop/Portfolio/src/assets/profile.jpg"
+// import profilePhoto from "src/assets/profile.jpg"
 export const Home = () => {
     return (
       <RevealOnScroll>
@@ -44,7 +46,7 @@ export const Home = () => {
         {/* Left: Profile Image */}
         <div className="w-full md:w-5/12 flex justify-center md:justify-end items-center">
           <img 
-            src="./src/assets/profile.jpg" 
+            src={profilePhoto}
             alt="Shifatunnabi Shifat" 
             className="w-60 h-60 md:w-72 md:h-72 lg:w-96 lg:h-96 rounded-full md:rounded-lg object-cover border-4 border-blue-500 lg:border-none md:border-none shadow-lg"
           />

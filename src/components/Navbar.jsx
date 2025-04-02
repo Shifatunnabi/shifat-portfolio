@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import logo from "C:/Users/HP/OneDrive/Desktop/Portfolio/src/assets/logo.png";
 
 export const Navbar = ({menuOpen, setMenuOpen}) => {
 
@@ -11,7 +12,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                 <div className="flex justify-between items-center h-16">
                     {/*logo */}
                     <a href="#home" className="flex items-center gap-1 font-mono text-xl font-bold text-white">
-                        <img src="./src/assets/logo.png" alt="Logo" className="h-8 w-8 rounded-full object-cover border border-white/20 mx-2" />
+                        <img src={logo} alt="Logo" className="h-8 w-8 rounded-full object-cover border border-white/20 mx-2" />
 
                         nabi<span className="text-blue-700">.dev</span>
                     </a>
