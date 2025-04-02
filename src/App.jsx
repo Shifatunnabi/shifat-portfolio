@@ -34,7 +34,7 @@ function App() {
 
       <Projects/>
 
-      <Contact/>
+      <Contact />
 
     </div>
     </>
