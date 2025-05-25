@@ -1,12 +1,38 @@
-# React + Vite
+# 🌐 Shifatunnabi Shifat | Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio! This site showcases my projects, skills, and experience as a full-stack developer passionate about building scalable and user-friendly web applications.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **ReactJS**
+- **TailwindCSS**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Features
+
+- Clean, modern, and responsive design
+- Social links: GitHub, LinkedIn, and CV
+- Smooth scroll and contact form section
+- Resume/portfolio downloads
+- Fully responsive layout 
+
+## 🔗 Live Site
+
+> [Click here to view the portfolio](https://shifatunnabi.github.io/shifat-portfolio)
+
+## 🖥️ Local Setup
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-portfolio-repo.git
+
+# Navigate into the project directory
+cd your-portfolio-repo
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
