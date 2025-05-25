@@ -2,7 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
 
-    const frontendSkills = ["HTML", "CSS", "React", "Vue", "Figma", "TailwindCSS"]
+    const frontendSkills = ["HTML", "CSS", "React", "Figma", "TailwindCSS", "Bootstrap"]
     const backendSkills = ["Javascript", "Python", "NodeJS", "MySQL", "ExpressJS"]
 
     return (
@@ -47,6 +47,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Education</h3>
                             <ul >
                                 <li className="mb-4">
+                                    <span className="inline-block w-2 h-2 bg-blue-500 rounded-full align-middle mr-2"></span>
                                     BSc in Computer Science and Engineering 
                                     <p><strong className="text-blue-500"> - BRAC University (2022-Present)</strong></p>
                                     
@@ -54,8 +55,9 @@ export const About = () => {
 
                                 
                                 <li className="mb-4">
+                                     <span className="inline-block w-2 h-2 bg-blue-500 rounded-full align-middle mr-2"></span>
                                     Higher Secondary School Certificate 
-                                    <p><strong className="text-blue-500"> - Rajuk Uttara Model College(2019-2021)</strong></p>
+                                    <p><strong className="text-blue-500"> - Rajuk Uttara Model College (2019-2021)</strong></p>
                                 </li>
                             </ul>
 
@@ -64,7 +66,21 @@ export const About = () => {
                         {/* work experience section */}
                         <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
                             <h3 className="text-xl font-bold mb-4">Work Experience</h3>
-                                    <h4> <span className="inline-block w-2 h-2 bg-green-500 rounded-full align-middle mr-2"></span><strong className="text-blue-500">Waiting to be hired for the first job</strong> </h4>
+                             <ul >
+                                <li className="mb-4">
+                                     <span className="inline-block w-2 h-2 bg-blue-500 rounded-full align-middle mr-2"></span>
+                                    Frontend Developer Intern
+                                    <p><strong className="text-blue-500"> - TechAByte Solutions (February 2023 - May 2023)</strong></p>
+                                    
+                                </li>
+
+                                
+                                <li className="mb-4">
+                                     <span className="inline-block w-2 h-2 bg-blue-500 rounded-full align-middle mr-2"></span>
+                                    Full Stack Web Developer Intern
+                                    <p><strong className="text-blue-500"> - XYZ Company (June 2024 - November 2024)</strong></p>
+                                </li>
+                            </ul>      
 
                         </div>
 
@@ -74,4 +90,4 @@ export const About = () => {
             </RevealOnScroll>
         </section>
     );
-}
+} 

@@ -1,38 +1,9 @@
-
-// export const Home = () => {
-
-//     return (
-
-//         <section id="home" className="min-h-screen flex items-center justify-center relative">
-
-//             <div className="text-center z-10 px-4">
-//                 <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-800 to-cyan-400 bg-clip-text text-transparent leading-right">Hi, I'm Shifatunnabi Shifat</h1>
-
-//                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-//                     I'm a student and full stack developer who loves to craft creative and scalable applications. My goal is to build applications that primarily solves a problem also a delightful user experience....
-//                 </p>
-
-//                 <div className="justify-center flex space-x-4">
-//                     <a href="#projects" 
-//                     className="bg-blue-500 text-white py-3 px-6 rounded font-medium trasition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]">
-//                         View Projects
-//                     </a>
-
-//                     <a href="#contact" 
-//                     className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10">
-//                         Contact Me
-//                     </a>
-//                 </div>
-//             </div>
-
-//         </section>
-//     );
-// }
-//./src/assets/profile.jpg
-//====================================================
-
 import { RevealOnScroll } from "../RevealOnScroll";
-import profilePhoto from "C:/Users/HP/OneDrive/Desktop/Portfolio/src/assets/profile.jpg"
+import profilePhoto from "F:/Projects/Portfolio/src/assets/profile.jpg"
+import githubIcon from "F:/Projects/Portfolio/src/assets/github.png"
+import linkedinIcon from "F:/Projects/Portfolio/src/assets/linkedin.png"
+import cvIcon from "F:/Projects/Portfolio/src/assets/cvv.png"
+
 // import profilePhoto from "src/assets/profile.jpg"
 export const Home = () => {
     return (
@@ -61,25 +32,49 @@ export const Home = () => {
             Shifatunnabi Shifat
           </h1>
 
-          <p className="text-gray-400 text-base md:text-lg mb-4 sm:mb-2 max-w-lg mx-auto md:mx-0">
-            I'm a student and full stack developer who loves to craft creative and scalable applications. My goal is to build applications that primarily solve a problem while providing a delightful user experience.
+          <p className="text-gray-400 text-base text-justify md:text-lg mb-4 sm:mb-2 max-w-lg mx-auto md:mx-0">
+            A CompSci student and fullstack developer. Passionate about building scalable, user-centric web applications and exploring intersection between software development, security, artificial intelligence and real-world problem solving. 
           </p>
 
-          <div className="flex flex-wrap justify-center md:justify-start gap-3">
-            <a 
-              href="#projects" 
-              className="bg-blue-500 text-white py-2 px-5 md:py-3 md:px-6 rounded font-medium text-sm md:text-base transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
+
+
+         <div className="flex flex-wrap items-center my-2 py-3 justify-center md:justify-start gap-4">
+            <a
+              href="https://github.com/Shifatunnabi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 transition-transform duration-200 hover:scale-110"
             >
-              View Projects
+              <img src={githubIcon} alt="GitHub" className="w-10 h-10" />
             </a>
-  
+
+            <a
+              href="https://www.linkedin.com/in/shifatunnabi-shifat/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-1 transition-transform duration-200 hover:scale-110"
+            >
+              <img src={linkedinIcon} alt="LinkedIn" className="w-10 h-10" />
+            </a>
+
+            <a
+              href="https://docs.google.com/document/d/1neRC-jTblDYJbWVMR0n5ei0g-injPEeh/edit"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-1  transition-transform duration-200 hover:scale-110"
+            >
+              <img src={cvIcon} alt="CV" className="w-10 h-10" />
+            </a>
+
             <a 
               href="#contact" 
-              className="border border-blue-500/50 text-blue-500 py-2 px-5 md:py-3 md:px-6 rounded font-medium text-sm md:text-base transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10"
+              className="ml-4 border border-blue-500/50 text-blue-500 py-2 px-5 md:py-3 md:px-6 rounded font-medium text-sm md:text-base transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10"
             >
               Contact Me
             </a>
           </div>
+
+
         </div>       
   
 
