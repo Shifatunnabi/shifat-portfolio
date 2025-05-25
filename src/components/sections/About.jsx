@@ -70,7 +70,7 @@ export const About = () => {
                                 <li className="mb-4">
                                      <span className="inline-block w-2 h-2 bg-blue-500 rounded-full align-middle mr-2"></span>
                                     Frontend Developer Intern
-                                    <p><strong className="text-blue-500"> - TechAByte Solutions (February 2023 - May 2023)</strong></p>
+                                    <p><strong className="text-blue-500"> - TechAByte Solutions (April 2024 - July 2024)</strong></p>
                                     
                                 </li>
 
@@ -78,7 +78,7 @@ export const About = () => {
                                 <li className="mb-4">
                                      <span className="inline-block w-2 h-2 bg-blue-500 rounded-full align-middle mr-2"></span>
                                     Full Stack Web Developer Intern
-                                    <p><strong className="text-blue-500"> - XYZ Company (June 2024 - November 2024)</strong></p>
+                                    <p><strong className="text-blue-500"> - BayFi (December 2024 - Present)</strong></p>
                                 </li>
                             </ul>      
 

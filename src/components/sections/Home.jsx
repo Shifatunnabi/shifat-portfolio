@@ -38,7 +38,7 @@ export const Home = () => {
 
 
 
-         <div className="flex flex-wrap items-center my-2 py-3 justify-center md:justify-start gap-4">
+         {/* <div className="flex flex-wrap items-center my-2 py-3 justify-center md:justify-start gap-2">
             <a
               href="https://github.com/Shifatunnabi"
               target="_blank"
@@ -72,7 +72,43 @@ export const Home = () => {
             >
               Contact Me
             </a>
-          </div>
+          </div> */}
+
+        <div className="flex flex-wrap items-center my-2 py-3 justify-center md:justify-start gap-3">
+          <a
+            href="https://github.com/Shifatunnabi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-1 transition-transform duration-200 hover:scale-110"
+          >
+            <img src={githubIcon} alt="GitHub" className="w-7 h-7 md:w-8 md:h-8" />
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/shifatunnabi-shifat/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-1 transition-transform duration-200 hover:scale-110"
+          >
+            <img src={linkedinIcon} alt="LinkedIn" className="w-7 h-7 md:w-8 md:h-8" />
+          </a>
+
+          <a
+            href="https://docs.google.com/document/d/1neRC-jTblDYJbWVMR0n5ei0g-injPEeh/edit"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-1 transition-transform duration-200 hover:scale-110"
+          >
+            <img src={cvIcon} alt="CV" className="w-7 h-7 md:w-8 md:h-8" />
+          </a>
+
+          <a 
+            href="#contact" 
+            className="ml-2 border border-blue-500/50 text-blue-500 py-1.5 px-4 md:py-2 md:px-5 rounded font-medium text-xs md:text-sm transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10"
+          >
+            Contact Me
+          </a>
+        </div>
 
 
         </div>       
